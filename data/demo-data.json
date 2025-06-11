@@ -236,9 +236,14 @@
       "phone": "+1 (555) 111-2222",
       "address": "100 Corporate Blvd, Business City, BC 11111",
       "companyId": "demo-company-1",
-      "totalPurchases": 15750.50,
+      "totalPurchases": 125750.50,
       "lastPurchase": "2024-01-12T14:30:00Z",
-      "status": "active"
+      "status": "active",
+      "industry": "Manufacturing",
+      "contactPerson": "Sarah Johnson",
+      "paymentTerms": "Net 30",
+      "creditLimit": 200000,
+      "taxId": "12-3456789"
     },
     {
       "id": "cust-2",
@@ -247,9 +252,14 @@
       "phone": "+1 (555) 222-3333",
       "address": "200 Innovation Dr, Tech Valley, TV 22222",
       "companyId": "demo-company-1",
-      "totalPurchases": 28900.75,
+      "totalPurchases": 298900.75,
       "lastPurchase": "2024-01-14T16:45:00Z",
-      "status": "active"
+      "status": "active",
+      "industry": "Technology",
+      "contactPerson": "Michael Chen",
+      "paymentTerms": "Net 15",
+      "creditLimit": 500000,
+      "taxId": "98-7654321"
     },
     {
       "id": "cust-3",
@@ -258,9 +268,14 @@
       "phone": "+1 (555) 333-4444",
       "address": "300 Venture St, Startup City, SC 33333",
       "companyId": "demo-company-1",
-      "totalPurchases": 8450.25,
+      "totalPurchases": 68450.25,
       "lastPurchase": "2024-01-10T10:20:00Z",
-      "status": "active"
+      "status": "active",
+      "industry": "Software",
+      "contactPerson": "Emily Rodriguez",
+      "paymentTerms": "Net 30",
+      "creditLimit": 100000,
+      "taxId": "45-6789012"
     },
     {
       "id": "cust-4",
@@ -269,9 +284,14 @@
       "phone": "+1 (555) 444-5555",
       "address": "400 Enterprise Way, Corporate Town, CT 44444",
       "companyId": "demo-company-1",
-      "totalPurchases": 42300.00,
+      "totalPurchases": 542300.00,
       "lastPurchase": "2024-01-15T09:15:00Z",
-      "status": "active"
+      "status": "active",
+      "industry": "Consulting",
+      "contactPerson": "David Wilson",
+      "paymentTerms": "Net 15",
+      "creditLimit": 750000,
+      "taxId": "78-9012345"
     },
     {
       "id": "cust-5",
@@ -280,9 +300,94 @@
       "phone": "+1 (555) 555-6666",
       "address": "500 Digital Ave, Future City, FC 55555",
       "companyId": "demo-company-1",
-      "totalPurchases": 19875.80,
+      "totalPurchases": 189875.80,
       "lastPurchase": "2024-01-08T13:40:00Z",
-      "status": "active"
+      "status": "active",
+      "industry": "Marketing",
+      "contactPerson": "Lisa Thompson",
+      "paymentTerms": "Net 30",
+      "creditLimit": 300000,
+      "taxId": "23-4567890"
+    },
+    {
+      "id": "cust-6",
+      "name": "InnovateCorp",
+      "email": "procurement@innovatecorp.com",
+      "phone": "+1 (555) 666-7777",
+      "address": "600 Innovation Blvd, Tech Hub, TH 66666",
+      "companyId": "demo-company-1",
+      "totalPurchases": 156780.90,
+      "lastPurchase": "2024-01-13T11:20:00Z",
+      "status": "active",
+      "industry": "Healthcare",
+      "contactPerson": "Dr. Amanda Foster",
+      "paymentTerms": "Net 30",
+      "creditLimit": 250000,
+      "taxId": "34-5678901"
+    },
+    {
+      "id": "cust-7",
+      "name": "Future Finance Group",
+      "email": "orders@futurefinance.com",
+      "phone": "+1 (555) 777-8888",
+      "address": "700 Financial St, Money City, MC 77777",
+      "companyId": "demo-company-1",
+      "totalPurchases": 234567.45,
+      "lastPurchase": "2024-01-11T15:30:00Z",
+      "status": "active",
+      "industry": "Finance",
+      "contactPerson": "Robert Kim",
+      "paymentTerms": "Net 15",
+      "creditLimit": 400000,
+      "taxId": "56-7890123"
+    },
+    {
+      "id": "cust-8",
+      "name": "EcoSolutions Inc",
+      "email": "purchasing@ecosolutions.com",
+      "phone": "+1 (555) 888-9999",
+      "address": "800 Green Way, Eco City, EC 88888",
+      "companyId": "demo-company-1",
+      "totalPurchases": 98765.32,
+      "lastPurchase": "2024-01-09T09:45:00Z",
+      "status": "active",
+      "industry": "Environmental",
+      "contactPerson": "Jennifer Green",
+      "paymentTerms": "Net 30",
+      "creditLimit": 150000,
+      "taxId": "67-8901234"
+    },
+    {
+      "id": "cust-9",
+      "name": "MegaCorp Industries",
+      "email": "procurement@megacorp.com",
+      "phone": "+1 (555) 999-0000",
+      "address": "900 Industrial Ave, Factory Town, FT 99999",
+      "companyId": "demo-company-1",
+      "totalPurchases": 445678.90,
+      "lastPurchase": "2024-01-07T14:15:00Z",
+      "status": "active",
+      "industry": "Manufacturing",
+      "contactPerson": "Thomas Anderson",
+      "paymentTerms": "Net 15",
+      "creditLimit": 600000,
+      "taxId": "89-0123456"
+    },
+    {
+      "id": "cust-10",
+      "name": "CloudFirst Technologies",
+      "email": "orders@cloudfirst.com",
+      "phone": "+1 (555) 000-1111",
+      "address": "1000 Cloud St, Virtual City, VC 00000",
+      "companyId": "demo-company-1",
+      "totalPurchases": 178934.56,
+      "lastPurchase": "2024-01-06T16:00:00Z",
+      "status": "active",
+      "industry": "Cloud Services",
+      "contactPerson": "Alex Rivera",
+      "paymentTerms": "Net 30",
+      "creditLimit": 350000,
+      "taxId": "90-1234567"
     }
   ],
   "sales": [
@@ -296,11 +401,15 @@
         { "id": "inv-3", "name": "Laptop Stand Adjustable", "quantity": 15, "price": 49.99, "total": 749.85 }
       ],
       "total": 2749.75,
-      "date": "2024-01-12T14:30:00Z",
+      "date": "2024-01-15T14:30:00Z",
       "status": "completed",
       "companyId": "demo-company-1",
-      "employeeId": "emp-3",
-      "employeeName": "Mike Johnson"
+      "employeeId": "emp-1",
+      "employeeName": "Anuj Dubey",
+      "paymentMethod": "Credit Card",
+      "discount": 0,
+      "tax": 274.98,
+      "notes": "Bulk order for new office setup"
     },
     {
       "id": "sale-2",
@@ -315,8 +424,12 @@
       "date": "2024-01-14T16:45:00Z",
       "status": "completed",
       "companyId": "demo-company-1",
-      "employeeId": "emp-3",
-      "employeeName": "Mike Johnson"
+      "employeeId": "emp-2",
+      "employeeName": "John Smith",
+      "paymentMethod": "Bank Transfer",
+      "discount": 450.00,
+      "tax": 899.93,
+      "notes": "Corporate discount applied - 5%"
     },
     {
       "id": "sale-3",
@@ -328,11 +441,15 @@
         { "id": "inv-1", "name": "Wireless Bluetooth Headphones", "quantity": 20, "price": 199.99, "total": 3999.80 }
       ],
       "total": 8799.50,
-      "date": "2024-01-15T09:15:00Z",
+      "date": "2024-01-13T09:15:00Z",
       "status": "completed",
       "companyId": "demo-company-1",
-      "employeeId": "emp-3",
-      "employeeName": "Mike Johnson"
+      "employeeId": "emp-1",
+      "employeeName": "Anuj Dubey",
+      "paymentMethod": "Check",
+      "discount": 0,
+      "tax": 879.95,
+      "notes": "Large enterprise order"
     },
     {
       "id": "sale-4",
@@ -344,11 +461,15 @@
         { "id": "inv-4", "name": "Wireless Mouse", "quantity": 12, "price": 29.99, "total": 359.88 }
       ],
       "total": 759.80,
-      "date": "2024-01-10T10:20:00Z",
+      "date": "2024-01-12T10:20:00Z",
       "status": "completed",
       "companyId": "demo-company-1",
       "employeeId": "emp-3",
-      "employeeName": "Mike Johnson"
+      "employeeName": "Piyush Singh",
+      "paymentMethod": "Credit Card",
+      "discount": 38.00,
+      "tax": 75.98,
+      "notes": "Startup discount - 5%"
     },
     {
       "id": "sale-5",
@@ -359,26 +480,388 @@
         { "id": "inv-2", "name": "Ergonomic Office Chair", "quantity": 5, "price": 299.99, "total": 1499.95 }
       ],
       "total": 1499.95,
-      "date": "2024-01-08T13:40:00Z",
+      "date": "2024-01-11T13:40:00Z",
+      "status": "completed",
+      "companyId": "demo-company-1",
+      "employeeId": "emp-2",
+      "employeeName": "John Smith",
+      "paymentMethod": "Bank Transfer",
+      "discount": 0,
+      "tax": 150.00,
+      "notes": "Standard order"
+    },
+    {
+      "id": "sale-6",
+      "customerId": "cust-6",
+      "customer": "InnovateCorp",
+      "customerName": "InnovateCorp",
+      "items": [
+        { "id": "inv-1", "name": "Wireless Bluetooth Headphones", "quantity": 35, "price": 199.99, "total": 6999.65 },
+        { "id": "inv-8", "name": "Monitor Stand", "quantity": 20, "price": 89.99, "total": 1799.80 },
+        { "id": "inv-4", "name": "Wireless Mouse", "quantity": 40, "price": 29.99, "total": 1199.60 }
+      ],
+      "total": 9999.05,
+      "date": "2024-01-10T11:20:00Z",
+      "status": "completed",
+      "companyId": "demo-company-1",
+      "employeeId": "emp-1",
+      "employeeName": "Anuj Dubey",
+      "paymentMethod": "Credit Card",
+      "discount": 500.00,
+      "tax": 999.91,
+      "notes": "Healthcare industry bulk order"
+    },
+    {
+      "id": "sale-7",
+      "customerId": "cust-7",
+      "customer": "Future Finance Group",
+      "customerName": "Future Finance Group",
+      "items": [
+        { "id": "inv-2", "name": "Ergonomic Office Chair", "quantity": 40, "price": 299.99, "total": 11999.60 },
+        { "id": "inv-5", "name": "Standing Desk Converter", "quantity": 25, "price": 159.99, "total": 3999.75 },
+        { "id": "inv-6", "name": "USB-C Hub", "quantity": 30, "price": 79.99, "total": 2399.70 }
+      ],
+      "total": 18399.05,
+      "date": "2024-01-09T15:30:00Z",
+      "status": "completed",
+      "companyId": "demo-company-1",
+      "employeeId": "emp-2",
+      "employeeName": "John Smith",
+      "paymentMethod": "Bank Transfer",
+      "discount": 920.00,
+      "tax": 1839.91,
+      "notes": "Premium client - 5% discount"
+    },
+    {
+      "id": "sale-8",
+      "customerId": "cust-8",
+      "customer": "EcoSolutions Inc",
+      "customerName": "EcoSolutions Inc",
+      "items": [
+        { "id": "inv-3", "name": "Laptop Stand Adjustable", "quantity": 25, "price": 49.99, "total": 1249.75 },
+        { "id": "inv-4", "name": "Wireless Mouse", "quantity": 30, "price": 29.99, "total": 899.70 },
+        { "id": "inv-8", "name": "Monitor Stand", "quantity": 15, "price": 89.99, "total": 1349.85 }
+      ],
+      "total": 3499.30,
+      "date": "2024-01-08T09:45:00Z",
       "status": "completed",
       "companyId": "demo-company-1",
       "employeeId": "emp-3",
-      "employeeName": "Mike Johnson"
+      "employeeName": "Piyush Singh",
+      "paymentMethod": "Check",
+      "discount": 175.00,
+      "tax": 349.93,
+      "notes": "Environmental company order"
+    },
+    {
+      "id": "sale-9",
+      "customerId": "cust-9",
+      "customer": "MegaCorp Industries",
+      "customerName": "MegaCorp Industries",
+      "items": [
+        { "id": "inv-1", "name": "Wireless Bluetooth Headphones", "quantity": 50, "price": 199.99, "total": 9999.50 },
+        { "id": "inv-2", "name": "Ergonomic Office Chair", "quantity": 60, "price": 299.99, "total": 17999.40 },
+        { "id": "inv-5", "name": "Standing Desk Converter", "quantity": 35, "price": 159.99, "total": 5599.65 }
+      ],
+      "total": 33598.55,
+      "date": "2024-01-07T14:15:00Z",
+      "status": "completed",
+      "companyId": "demo-company-1",
+      "employeeId": "emp-1",
+      "employeeName": "Anuj Dubey",
+      "paymentMethod": "Bank Transfer",
+      "discount": 1680.00,
+      "tax": 3359.86,
+      "notes": "Largest order this month - 5% volume discount"
+    },
+    {
+      "id": "sale-10",
+      "customerId": "cust-10",
+      "customer": "CloudFirst Technologies",
+      "customerName": "CloudFirst Technologies",
+      "items": [
+        { "id": "inv-6", "name": "USB-C Hub", "quantity": 45, "price": 79.99, "total": 3599.55 },
+        { "id": "inv-4", "name": "Wireless Mouse", "quantity": 60, "price": 29.99, "total": 1799.40 },
+        { "id": "inv-3", "name": "Laptop Stand Adjustable", "quantity": 40, "price": 49.99, "total": 1999.60 }
+      ],
+      "total": 7398.55,
+      "date": "2024-01-06T16:00:00Z",
+      "status": "completed",
+      "companyId": "demo-company-1",
+      "employeeId": "emp-2",
+      "employeeName": "John Smith",
+      "paymentMethod": "Credit Card",
+      "discount": 370.00,
+      "tax": 739.86,
+      "notes": "Cloud services company order"
     }
   ],
   "projects": [
     {
       "id": "proj-1",
-      "name": "rgonomic",
-      "description": "Complete redesign of the customer-facing portal with modern UI/UX",
+      "name": "Customer Portal Redesign",
+      "description": "Complete redesign of the customer-facing portal with modern UI/UX, responsive design, and enhanced user experience",
       "type": "client",
       "status": "in_progress",
       "startDate": "2024-01-01",
-      "endDate": "2025-06-19",
-      "completionPercentage": 10,
+      "endDate": "2024-06-30",
+      "completionPercentage": 65,
+      "projectManager": {
+        "employeeId": "emp-2",
+        "name": "John Smith",
+        "role": "senior developer",
+        "department": "Engineering"
+      },
+      "teamMembers": [
+        {
+          "employeeId": "emp-1",
+          "name": "Anuj Dubey",
+          "role": "intern",
+          "department": "Engineering"
+        },
+        {
+          "employeeId": "emp-3",
+          "name": "Piyush Singh",
+          "role": "HR intern",
+          "department": "Hr"
+        }
+      ],
+      "client": {
+        "name": "Sarah Johnson",
+        "company": "Acme Corporation",
+        "email": "sarah.johnson@acme.com"
+      },
+      "budget": 150000,
+      "expenses": 97500,
+      "priority": "high",
+      "tags": ["ui", "ux", "redesign", "responsive", "react"],
+      "notes": "Project is progressing well. UI mockups completed, development 65% done.",
+      "tasks": [
+        { "id": "task-1", "name": "UI Design", "status": "completed", "assignee": "emp-1" },
+        { "id": "task-2", "name": "Frontend Development", "status": "in_progress", "assignee": "emp-2" },
+        { "id": "task-3", "name": "Backend Integration", "status": "pending", "assignee": "emp-1" },
+        { "id": "task-4", "name": "Testing", "status": "pending", "assignee": "emp-3" }
+      ],
+      "milestones": [
+        { "id": "milestone-1", "name": "Design Approval", "date": "2024-02-15", "status": "completed" },
+        { "id": "milestone-2", "name": "MVP Release", "date": "2024-04-30", "status": "completed" },
+        { "id": "milestone-3", "name": "Final Release", "date": "2024-06-30", "status": "pending" }
+      ],
+      "createdAt": "2024-01-01T10:00:00Z",
+      "updatedAt": "2024-01-15T10:00:00Z"
+    },
+    {
+      "id": "proj-2",
+      "name": "HR Management System",
+      "description": "Implementation of comprehensive HR management system for employee tracking, payroll, and performance management",
+      "type": "internal",
+      "status": "completed",
+      "startDate": "2023-08-15",
+      "endDate": "2024-01-11",
+      "completionPercentage": 100,
+      "projectManager": {
+        "employeeId": "emp-1",
+        "name": "Anuj Dubey",
+        "role": "intern",
+        "department": "Engineering"
+      },
+      "teamMembers": [
+        {
+          "employeeId": "emp-2",
+          "name": "John Smith",
+          "role": "senior developer",
+          "department": "Engineering"
+        },
+        {
+          "employeeId": "emp-3",
+          "name": "Piyush Singh",
+          "role": "HR intern",
+          "department": "Hr"
+        }
+      ],
+      "client": {
+        "name": "Internal Project",
+        "company": "TechCorp",
+        "email": "hr@techcorp-demo.com"
+      },
+      "budget": 200000,
+      "expenses": 185000,
+      "priority": "high",
+      "tags": ["hr", "management", "system", "payroll", "performance"],
+      "notes": "Successfully completed ahead of schedule. System is now live and being used company-wide.",
+      "tasks": [
+        { "id": "task-5", "name": "Requirements Analysis", "status": "completed", "assignee": "emp-3" },
+        { "id": "task-6", "name": "Database Design", "status": "completed", "assignee": "emp-1" },
+        { "id": "task-7", "name": "Backend Development", "status": "completed", "assignee": "emp-2" },
+        { "id": "task-8", "name": "Frontend Development", "status": "completed", "assignee": "emp-1" },
+        { "id": "task-9", "name": "Testing & Deployment", "status": "completed", "assignee": "emp-2" }
+      ],
+      "milestones": [
+        { "id": "milestone-4", "name": "Requirements Sign-off", "date": "2023-09-15", "status": "completed" },
+        { "id": "milestone-5", "name": "Beta Release", "date": "2023-12-01", "status": "completed" },
+        { "id": "milestone-6", "name": "Production Release", "date": "2024-01-11", "status": "completed" }
+      ],
+      "createdAt": "2023-08-15T10:00:00Z",
+      "updatedAt": "2024-01-11T10:00:00Z"
+    },
+    {
+      "id": "proj-3",
+      "name": "Real-time Chat Application",
+      "description": "Development of real-time chat application with file sharing, video calls, and team collaboration features",
+      "type": "client",
+      "status": "in_progress",
+      "startDate": "2023-10-01",
+      "endDate": "2024-05-15",
+      "completionPercentage": 78,
+      "projectManager": {
+        "employeeId": "emp-2",
+        "name": "John Smith",
+        "role": "senior developer",
+        "department": "Engineering"
+      },
+      "teamMembers": [
+        {
+          "employeeId": "emp-1",
+          "name": "Anuj Dubey",
+          "role": "intern",
+          "department": "Engineering"
+        }
+      ],
+      "client": {
+        "name": "Michael Chen",
+        "company": "Global Tech Solutions",
+        "email": "michael.chen@globaltech.com"
+      },
+      "budget": 180000,
+      "expenses": 140400,
+      "priority": "medium",
+      "tags": ["chat", "real-time", "websockets", "collaboration", "video"],
+      "notes": "Chat functionality completed. Working on video call integration.",
+      "tasks": [
+        { "id": "task-10", "name": "Chat Backend", "status": "completed", "assignee": "emp-2" },
+        { "id": "task-11", "name": "Real-time Messaging", "status": "completed", "assignee": "emp-1" },
+        { "id": "task-12", "name": "File Sharing", "status": "completed", "assignee": "emp-2" },
+        { "id": "task-13", "name": "Video Calls", "status": "in_progress", "assignee": "emp-1" },
+        { "id": "task-14", "name": "Mobile App", "status": "pending", "assignee": "emp-2" }
+      ],
+      "milestones": [
+        { "id": "milestone-7", "name": "Basic Chat", "date": "2023-12-01", "status": "completed" },
+        { "id": "milestone-8", "name": "File Sharing", "date": "2024-02-15", "status": "completed" },
+        { "id": "milestone-9", "name": "Video Integration", "date": "2024-04-01", "status": "in_progress" },
+        { "id": "milestone-10", "name": "Mobile Release", "date": "2024-05-15", "status": "pending" }
+      ],
+      "createdAt": "2023-10-01T10:00:00Z",
+      "updatedAt": "2024-01-15T10:00:00Z"
+    },
+    {
+      "id": "proj-4",
+      "name": "Food Delivery Platform",
+      "description": "Complete food delivery platform with restaurant management, order tracking, and payment integration",
+      "type": "client",
+      "status": "completed",
+      "startDate": "2023-06-01",
+      "endDate": "2024-01-29",
+      "completionPercentage": 100,
+      "projectManager": {
+        "employeeId": "emp-2",
+        "name": "John Smith",
+        "role": "senior developer",
+        "department": "Engineering"
+      },
+      "teamMembers": [
+        {
+          "employeeId": "emp-1",
+          "name": "Anuj Dubey",
+          "role": "intern",
+          "department": "Engineering"
+        }
+      ],
+      "client": {
+        "name": "Emily Rodriguez",
+        "company": "StartUp Innovations",
+        "email": "emily.rodriguez@startup.com"
+      },
+      "budget": 250000,
+      "expenses": 235000,
+      "priority": "high",
+      "tags": ["delivery", "food", "mobile", "payments", "tracking"],
+      "notes": "Successfully launched. Platform handling 1000+ orders daily.",
+      "tasks": [
+        { "id": "task-15", "name": "Restaurant Portal", "status": "completed", "assignee": "emp-2" },
+        { "id": "task-16", "name": "Customer App", "status": "completed", "assignee": "emp-1" },
+        { "id": "task-17", "name": "Delivery Tracking", "status": "completed", "assignee": "emp-2" },
+        { "id": "task-18", "name": "Payment Integration", "status": "completed", "assignee": "emp-1" },
+        { "id": "task-19", "name": "Admin Dashboard", "status": "completed", "assignee": "emp-2" }
+      ],
+      "milestones": [
+        { "id": "milestone-11", "name": "MVP Launch", "date": "2023-09-01", "status": "completed" },
+        { "id": "milestone-12", "name": "Payment Integration", "date": "2023-11-15", "status": "completed" },
+        { "id": "milestone-13", "name": "Full Launch", "date": "2024-01-29", "status": "completed" }
+      ],
+      "createdAt": "2023-06-01T10:00:00Z",
+      "updatedAt": "2024-01-29T10:00:00Z"
+    },
+    {
+      "id": "proj-5",
+      "name": "E-commerce Analytics Dashboard",
+      "description": "Advanced analytics dashboard for e-commerce businesses with real-time sales tracking, customer insights, and inventory analytics",
+      "type": "client",
+      "status": "in_progress",
+      "startDate": "2024-01-15",
+      "endDate": "2024-08-30",
+      "completionPercentage": 25,
+      "projectManager": {
+        "employeeId": "emp-1",
+        "name": "Anuj Dubey",
+        "role": "intern",
+        "department": "Engineering"
+      },
+      "teamMembers": [
+        {
+          "employeeId": "emp-2",
+          "name": "John Smith",
+          "role": "senior developer",
+          "department": "Engineering"
+        }
+      ],
+      "client": {
+        "name": "David Wilson",
+        "company": "Enterprise Systems Ltd",
+        "email": "david.wilson@enterprise.com"
+      },
+      "budget": 320000,
+      "expenses": 80000,
+      "priority": "high",
+      "tags": ["analytics", "dashboard", "e-commerce", "real-time", "insights"],
+      "notes": "Just started. Requirements gathering completed, starting development phase.",
+      "tasks": [
+        { "id": "task-20", "name": "Requirements Analysis", "status": "completed", "assignee": "emp-1" },
+        { "id": "task-21", "name": "Database Design", "status": "in_progress", "assignee": "emp-2" },
+        { "id": "task-22", "name": "API Development", "status": "pending", "assignee": "emp-2" },
+        { "id": "task-23", "name": "Dashboard UI", "status": "pending", "assignee": "emp-1" },
+        { "id": "task-24", "name": "Data Visualization", "status": "pending", "assignee": "emp-1" }
+      ],
+      "milestones": [
+        { "id": "milestone-14", "name": "Requirements Sign-off", "date": "2024-02-15", "status": "pending" },
+        { "id": "milestone-15", "name": "Alpha Release", "date": "2024-05-01", "status": "pending" },
+        { "id": "milestone-16", "name": "Beta Release", "date": "2024-07-15", "status": "pending" },
+        { "id": "milestone-17", "name": "Production Release", "date": "2024-08-30", "status": "pending" }
+      ],
+      "createdAt": "2024-01-15T10:00:00Z",
+      "updatedAt": "2024-01-15T10:00:00Z"
+    },
+    {
+      "id": "proj-6",
+      "name": "Financial Reporting Automation",
+      "description": "Automated financial reporting system with monthly, quarterly, and annual report generation",
+      "type": "internal",
+      "status": "planning",
+      "startDate": "2024-02-01",
+      "endDate": "2024-09-30",
+      "completionPercentage": 5,
       "projectManager": {
         "employeeId": "emp-3",
-        "name": "Piyush thourani",
+        "name": "Piyush Singh",
         "role": "HR intern",
         "department": "Hr"
       },
@@ -391,231 +874,595 @@
         }
       ],
       "client": {
-        "name": "Demo Client",
-        "company": "Client Corp",
-        "email": "client@demo.com"
+        "name": "Internal Project",
+        "company": "TechCorp",
+        "email": "finance@techcorp-demo.com"
       },
       "budget": 150000,
-      "expenses": 75000,
+      "expenses": 7500,
       "priority": "medium",
-      "tags": ["ui", "ux", "redesign"],
-      "notes": "Project is progressing well with initial designs completed",
-      "tasks": [],
-      "milestones": [],
-      "createdAt": "2024-01-01T10:00:00Z",
-      "updatedAt": "2024-01-15T10:00:00Z"
-    },
-    {
-      "id": "proj-2",
-      "name": "web app",
-      "description": "Implementation of new HR management system for employee tracking",
-      "type": "client",
-      "status": "completed",
-      "startDate": "2024-02-15",
-      "endDate": "2025-05-11",
-      "completionPercentage": 100,
-      "projectManager": {
-        "employeeId": "emp-1",
-        "name": "Anuj Dubey",
-        "role": "intern",
-        "department": "Engineering"
-      },
-      "teamMembers": [
-        {
-          "employeeId": "emp-2",
-          "name": "nigga nigga",
-          "role": "senior developer",
-          "department": "Engineering"
-        }
+      "tags": ["automation", "reporting", "finance", "analytics"],
+      "notes": "Project in planning phase. Stakeholder meetings scheduled.",
+      "tasks": [
+        { "id": "task-25", "name": "Stakeholder Interviews", "status": "in_progress", "assignee": "emp-3" },
+        { "id": "task-26", "name": "Current Process Analysis", "status": "pending", "assignee": "emp-1" },
+        { "id": "task-27", "name": "System Architecture", "status": "pending", "assignee": "emp-1" },
+        { "id": "task-28", "name": "Development", "status": "pending", "assignee": "emp-1" }
       ],
-      "budget": 200000,
-      "expenses": 25000,
-      "priority": "high",
-      "tags": ["hr", "management", "system"],
-      "notes": "Successfully completed ahead of schedule",
-      "tasks": [],
-      "milestones": [],
-      "createdAt": "2024-02-15T10:00:00Z",
-      "updatedAt": "2024-05-11T10:00:00Z"
-    },
-    {
-      "id": "proj-3",
-      "name": "chating APP",
-      "description": "Development of comprehensive sales analytics and reporting dashboard",
-      "type": "client",
-      "status": "in_progress",
-      "startDate": "2023-10-01",
-      "endDate": "2025-05-11",
-      "completionPercentage": 20,
-      "projectManager": {
-        "employeeId": "emp-2",
-        "name": "shubham Dha",
-        "role": "senior developer",
-        "department": "Engineering"
-      },
-      "teamMembers": [
-        {
-          "employeeId": "emp-1",
-          "name": "Anuj Dubey",
-          "role": "intern",
-          "department": "Engineering"
-        }
+      "milestones": [
+        { "id": "milestone-18", "name": "Requirements Complete", "date": "2024-03-15", "status": "pending" },
+        { "id": "milestone-19", "name": "Development Start", "date": "2024-04-01", "status": "pending" },
+        { "id": "milestone-20", "name": "Beta Testing", "date": "2024-08-01", "status": "pending" },
+        { "id": "milestone-21", "name": "Go Live", "date": "2024-09-30", "status": "pending" }
       ],
-      "budget": 80000,
-      "expenses": 78500,
-      "priority": "medium",
-      "tags": ["analytics", "dashboard", "sales"],
-      "notes": "Dashboard development in progress",
-      "tasks": [],
-      "milestones": [],
-      "createdAt": "2023-10-01T10:00:00Z",
-      "updatedAt": "2024-01-15T10:00:00Z"
-    },
-    {
-      "id": "proj-4",
-      "name": "Delivery app",
-      "description": "Automate monthly and quarterly financial reporting processes",
-      "type": "client",
-      "status": "completed",
-      "startDate": "2023-12-01",
-      "endDate": "2025-04-29",
-      "completionPercentage": 100,
-      "projectManager": {
-        "employeeId": "emp-2",
-        "name": "nigga nigga",
-        "role": "senior developer",
-        "department": "Engineering"
-      },
-      "teamMembers": [
-        {
-          "employeeId": "emp-1",
-          "name": "Anuj Dubey",
-          "role": "intern",
-          "department": "Engineering"
-        }
-      ],
-      "budget": 120000,
-      "expenses": 60000,
-      "priority": "low",
-      "tags": ["automation", "reporting", "finance"],
-      "notes": "Automation system successfully implemented",
-      "tasks": [],
-      "milestones": [],
-      "createdAt": "2023-12-01T10:00:00Z",
-      "updatedAt": "2024-04-29T10:00:00Z"
+      "createdAt": "2024-01-20T10:00:00Z",
+      "updatedAt": "2024-01-20T10:00:00Z"
     }
   ],
   "finance": [
     {
       "id": "fin-1",
       "type": "income",
-      "category": "Sales Revenue",
-      "amount": 22808.25,
-      "description": "Total sales revenue for January 2024",
+      "category": "Product Sales",
+      "subcategory": "Hardware Sales",
+      "amount": 33598.55,
+      "description": "Revenue from MegaCorp Industries - largest order this month",
       "date": "2024-01-15",
-      "companyId": "demo-company-1"
+      "companyId": "demo-company-1",
+      "customerId": "cust-9",
+      "saleId": "sale-9",
+      "paymentMethod": "Bank Transfer",
+      "invoiceNumber": "INV-2024-001",
+      "taxAmount": 3359.86,
+      "netAmount": 30238.69
     },
     {
       "id": "fin-2",
-      "type": "expense",
-      "category": "Salaries",
-      "amount": 39000.00,
-      "description": "Monthly salary payments",
-      "date": "2024-01-01",
-      "companyId": "demo-company-1"
+      "type": "income",
+      "category": "Product Sales",
+      "subcategory": "Office Equipment",
+      "amount": 18399.05,
+      "description": "Revenue from Future Finance Group - premium client order",
+      "date": "2024-01-14",
+      "companyId": "demo-company-1",
+      "customerId": "cust-7",
+      "saleId": "sale-7",
+      "paymentMethod": "Bank Transfer",
+      "invoiceNumber": "INV-2024-002",
+      "taxAmount": 1839.91,
+      "netAmount": 16559.14
     },
     {
       "id": "fin-3",
-      "type": "expense",
-      "category": "Office Supplies",
-      "amount": 2500.00,
-      "description": "Office supplies and equipment",
-      "date": "2024-01-10",
-      "companyId": "demo-company-1"
+      "type": "income",
+      "category": "Product Sales",
+      "subcategory": "Technology Products",
+      "amount": 9999.05,
+      "description": "Revenue from InnovateCorp - healthcare industry bulk order",
+      "date": "2024-01-13",
+      "companyId": "demo-company-1",
+      "customerId": "cust-6",
+      "saleId": "sale-6",
+      "paymentMethod": "Credit Card",
+      "invoiceNumber": "INV-2024-003",
+      "taxAmount": 999.91,
+      "netAmount": 8999.14
     },
     {
       "id": "fin-4",
-      "type": "expense",
-      "category": "Marketing",
-      "amount": 5000.00,
-      "description": "Digital marketing campaigns",
-      "date": "2024-01-05",
-      "companyId": "demo-company-1"
+      "type": "income",
+      "category": "Product Sales",
+      "subcategory": "Office Equipment",
+      "amount": 8999.25,
+      "description": "Revenue from Global Tech Solutions - corporate order",
+      "date": "2024-01-12",
+      "companyId": "demo-company-1",
+      "customerId": "cust-2",
+      "saleId": "sale-2",
+      "paymentMethod": "Bank Transfer",
+      "invoiceNumber": "INV-2024-004",
+      "taxAmount": 899.93,
+      "netAmount": 8099.32
     },
     {
       "id": "fin-5",
       "type": "income",
-      "category": "Consulting",
-      "amount": 15000.00,
-      "description": "Consulting services revenue",
-      "date": "2024-01-12",
-      "companyId": "demo-company-1"
+      "category": "Product Sales",
+      "subcategory": "Hardware Sales",
+      "amount": 8799.50,
+      "description": "Revenue from Enterprise Systems Ltd - large enterprise order",
+      "date": "2024-01-11",
+      "companyId": "demo-company-1",
+      "customerId": "cust-4",
+      "saleId": "sale-3",
+      "paymentMethod": "Check",
+      "invoiceNumber": "INV-2024-005",
+      "taxAmount": 879.95,
+      "netAmount": 7919.55
     },
     {
       "id": "fin-6",
-      "type": "expense",
-      "category": "Utilities",
-      "amount": 1200.00,
-      "description": "Monthly electricity and internet bills",
-      "date": "2024-01-03",
-      "companyId": "demo-company-1"
+      "type": "income",
+      "category": "Product Sales",
+      "subcategory": "Technology Products",
+      "amount": 7398.55,
+      "description": "Revenue from CloudFirst Technologies - cloud services order",
+      "date": "2024-01-10",
+      "companyId": "demo-company-1",
+      "customerId": "cust-10",
+      "saleId": "sale-10",
+      "paymentMethod": "Credit Card",
+      "invoiceNumber": "INV-2024-006",
+      "taxAmount": 739.86,
+      "netAmount": 6658.69
     },
     {
       "id": "fin-7",
-      "type": "expense",
-      "category": "Software Licenses",
-      "amount": 3500.00,
-      "description": "Annual software licensing fees",
-      "date": "2024-01-08",
-      "companyId": "demo-company-1"
+      "type": "income",
+      "category": "Product Sales",
+      "subcategory": "Office Equipment",
+      "amount": 3499.30,
+      "description": "Revenue from EcoSolutions Inc - environmental company order",
+      "date": "2024-01-09",
+      "companyId": "demo-company-1",
+      "customerId": "cust-8",
+      "saleId": "sale-8",
+      "paymentMethod": "Check",
+      "invoiceNumber": "INV-2024-007",
+      "taxAmount": 349.93,
+      "netAmount": 3149.37
     },
     {
       "id": "fin-8",
       "type": "income",
       "category": "Product Sales",
-      "amount": 8999.25,
-      "description": "Revenue from Global Tech Solutions sale",
-      "date": "2024-01-14",
-      "companyId": "demo-company-1"
+      "subcategory": "Hardware Sales",
+      "amount": 2749.75,
+      "description": "Revenue from Acme Corporation - bulk office setup",
+      "date": "2024-01-08",
+      "companyId": "demo-company-1",
+      "customerId": "cust-1",
+      "saleId": "sale-1",
+      "paymentMethod": "Credit Card",
+      "invoiceNumber": "INV-2024-008",
+      "taxAmount": 274.98,
+      "netAmount": 2474.77
     },
     {
       "id": "fin-9",
-      "type": "expense",
-      "category": "Travel",
-      "amount": 2800.00,
-      "description": "Business travel expenses",
-      "date": "2024-01-11",
-      "companyId": "demo-company-1"
+      "type": "income",
+      "category": "Product Sales",
+      "subcategory": "Office Equipment",
+      "amount": 1499.95,
+      "description": "Revenue from Digital Dynamics - standard order",
+      "date": "2024-01-07",
+      "companyId": "demo-company-1",
+      "customerId": "cust-5",
+      "saleId": "sale-5",
+      "paymentMethod": "Bank Transfer",
+      "invoiceNumber": "INV-2024-009",
+      "taxAmount": 150.00,
+      "netAmount": 1349.95
     },
     {
       "id": "fin-10",
       "type": "income",
       "category": "Product Sales",
-      "amount": 8799.50,
-      "description": "Revenue from Enterprise Systems Ltd sale",
+      "subcategory": "Technology Products",
+      "amount": 759.80,
+      "description": "Revenue from StartUp Innovations - startup discount applied",
+      "date": "2024-01-06",
+      "companyId": "demo-company-1",
+      "customerId": "cust-3",
+      "saleId": "sale-4",
+      "paymentMethod": "Credit Card",
+      "invoiceNumber": "INV-2024-010",
+      "taxAmount": 75.98,
+      "netAmount": 683.82
+    },
+    {
+      "id": "fin-11",
+      "type": "income",
+      "category": "Consulting Services",
+      "subcategory": "Technical Consulting",
+      "amount": 25000.00,
+      "description": "Technical consulting services for Q1 2024",
       "date": "2024-01-15",
-      "companyId": "demo-company-1"
+      "companyId": "demo-company-1",
+      "customerId": "cust-2",
+      "paymentMethod": "Bank Transfer",
+      "invoiceNumber": "CONS-2024-001",
+      "taxAmount": 2500.00,
+      "netAmount": 22500.00
+    },
+    {
+      "id": "fin-12",
+      "type": "income",
+      "category": "Consulting Services",
+      "subcategory": "Project Management",
+      "amount": 18000.00,
+      "description": "Project management consulting for Enterprise Systems",
+      "date": "2024-01-12",
+      "companyId": "demo-company-1",
+      "customerId": "cust-4",
+      "paymentMethod": "Check",
+      "invoiceNumber": "CONS-2024-002",
+      "taxAmount": 1800.00,
+      "netAmount": 16200.00
+    },
+    {
+      "id": "fin-13",
+      "type": "income",
+      "category": "Licensing Revenue",
+      "subcategory": "Software Licensing",
+      "amount": 15000.00,
+      "description": "Software licensing revenue - Q1 2024",
+      "date": "2024-01-10",
+      "companyId": "demo-company-1",
+      "paymentMethod": "Bank Transfer",
+      "invoiceNumber": "LIC-2024-001",
+      "taxAmount": 1500.00,
+      "netAmount": 13500.00
+    },
+    {
+      "id": "fin-14",
+      "type": "income",
+      "category": "Subscription Revenue",
+      "subcategory": "SaaS Subscriptions",
+      "amount": 12500.00,
+      "description": "Monthly SaaS subscription revenue",
+      "date": "2024-01-08",
+      "companyId": "demo-company-1",
+      "paymentMethod": "Auto-debit",
+      "invoiceNumber": "SUB-2024-001",
+      "taxAmount": 1250.00,
+      "netAmount": 11250.00
+    },
+    {
+      "id": "fin-15",
+      "type": "expense",
+      "category": "Salaries & Benefits",
+      "subcategory": "Base Salaries",
+      "amount": 42000.00,
+      "description": "Monthly salary payments for all employees",
+      "date": "2024-01-01",
+      "companyId": "demo-company-1",
+      "paymentMethod": "Bank Transfer",
+      "invoiceNumber": "SAL-2024-001",
+      "department": "All Departments"
+    },
+    {
+      "id": "fin-16",
+      "type": "expense",
+      "category": "Salaries & Benefits",
+      "subcategory": "Health Insurance",
+      "amount": 8500.00,
+      "description": "Monthly health insurance premiums",
+      "date": "2024-01-01",
+      "companyId": "demo-company-1",
+      "paymentMethod": "Bank Transfer",
+      "invoiceNumber": "INS-2024-001",
+      "department": "HR"
+    },
+    {
+      "id": "fin-17",
+      "type": "expense",
+      "category": "Salaries & Benefits",
+      "subcategory": "Retirement Contributions",
+      "amount": 4200.00,
+      "description": "Monthly 401k employer contributions",
+      "date": "2024-01-01",
+      "companyId": "demo-company-1",
+      "paymentMethod": "Bank Transfer",
+      "invoiceNumber": "RET-2024-001",
+      "department": "HR"
+    },
+    {
+      "id": "fin-18",
+      "type": "expense",
+      "category": "Technology",
+      "subcategory": "Software Licenses",
+      "amount": 8500.00,
+      "description": "Annual software licensing fees - development tools",
+      "date": "2024-01-15",
+      "companyId": "demo-company-1",
+      "paymentMethod": "Credit Card",
+      "invoiceNumber": "SOFT-2024-001",
+      "department": "Engineering"
+    },
+    {
+      "id": "fin-19",
+      "type": "expense",
+      "category": "Technology",
+      "subcategory": "Cloud Services",
+      "amount": 5200.00,
+      "description": "Monthly cloud hosting and services",
+      "date": "2024-01-10",
+      "companyId": "demo-company-1",
+      "paymentMethod": "Credit Card",
+      "invoiceNumber": "CLOUD-2024-001",
+      "department": "Engineering"
+    },
+    {
+      "id": "fin-20",
+      "type": "expense",
+      "category": "Technology",
+      "subcategory": "Hardware",
+      "amount": 12000.00,
+      "description": "New laptops and equipment for team",
+      "date": "2024-01-08",
+      "companyId": "demo-company-1",
+      "paymentMethod": "Credit Card",
+      "invoiceNumber": "HW-2024-001",
+      "department": "Engineering"
+    },
+    {
+      "id": "fin-21",
+      "type": "expense",
+      "category": "Marketing & Sales",
+      "subcategory": "Digital Marketing",
+      "amount": 7500.00,
+      "description": "Google Ads and social media marketing campaigns",
+      "date": "2024-01-12",
+      "companyId": "demo-company-1",
+      "paymentMethod": "Credit Card",
+      "invoiceNumber": "MKT-2024-001",
+      "department": "Marketing"
+    },
+    {
+      "id": "fin-22",
+      "type": "expense",
+      "category": "Marketing & Sales",
+      "subcategory": "Trade Shows",
+      "amount": 15000.00,
+      "description": "Tech conference booth and materials",
+      "date": "2024-01-05",
+      "companyId": "demo-company-1",
+      "paymentMethod": "Credit Card",
+      "invoiceNumber": "CONF-2024-001",
+      "department": "Marketing"
+    },
+    {
+      "id": "fin-23",
+      "type": "expense",
+      "category": "Operations",
+      "subcategory": "Office Rent",
+      "amount": 18000.00,
+      "description": "Monthly office rent and utilities",
+      "date": "2024-01-01",
+      "companyId": "demo-company-1",
+      "paymentMethod": "Bank Transfer",
+      "invoiceNumber": "RENT-2024-001",
+      "department": "Operations"
+    },
+    {
+      "id": "fin-24",
+      "type": "expense",
+      "category": "Operations",
+      "subcategory": "Utilities",
+      "amount": 2800.00,
+      "description": "Electricity, internet, and phone services",
+      "date": "2024-01-03",
+      "companyId": "demo-company-1",
+      "paymentMethod": "Auto-debit",
+      "invoiceNumber": "UTIL-2024-001",
+      "department": "Operations"
+    },
+    {
+      "id": "fin-25",
+      "type": "expense",
+      "category": "Operations",
+      "subcategory": "Office Supplies",
+      "amount": 3200.00,
+      "description": "Office supplies, furniture, and equipment",
+      "date": "2024-01-07",
+      "companyId": "demo-company-1",
+      "paymentMethod": "Credit Card",
+      "invoiceNumber": "SUP-2024-001",
+      "department": "Operations"
+    },
+    {
+      "id": "fin-26",
+      "type": "expense",
+      "category": "Travel & Entertainment",
+      "subcategory": "Business Travel",
+      "amount": 4500.00,
+      "description": "Client meetings and business travel",
+      "date": "2024-01-11",
+      "companyId": "demo-company-1",
+      "paymentMethod": "Credit Card",
+      "invoiceNumber": "TRV-2024-001",
+      "department": "Sales"
+    },
+    {
+      "id": "fin-27",
+      "type": "expense",
+      "category": "Travel & Entertainment",
+      "subcategory": "Client Entertainment",
+      "amount": 1800.00,
+      "description": "Client dinners and entertainment",
+      "date": "2024-01-14",
+      "companyId": "demo-company-1",
+      "paymentMethod": "Credit Card",
+      "invoiceNumber": "ENT-2024-001",
+      "department": "Sales"
+    },
+    {
+      "id": "fin-28",
+      "type": "expense",
+      "category": "Professional Services",
+      "subcategory": "Legal Fees",
+      "amount": 6000.00,
+      "description": "Legal consultation and contract review",
+      "date": "2024-01-09",
+      "companyId": "demo-company-1",
+      "paymentMethod": "Check",
+      "invoiceNumber": "LEG-2024-001",
+      "department": "Legal"
+    },
+    {
+      "id": "fin-29",
+      "type": "expense",
+      "category": "Professional Services",
+      "subcategory": "Accounting",
+      "amount": 3500.00,
+      "description": "Monthly accounting and bookkeeping services",
+      "date": "2024-01-06",
+      "companyId": "demo-company-1",
+      "paymentMethod": "Bank Transfer",
+      "invoiceNumber": "ACC-2024-001",
+      "department": "Finance"
+    },
+    {
+      "id": "fin-30",
+      "type": "expense",
+      "category": "Insurance",
+      "subcategory": "General Liability",
+      "amount": 2200.00,
+      "description": "Monthly general liability insurance",
+      "date": "2024-01-01",
+      "companyId": "demo-company-1",
+      "paymentMethod": "Auto-debit",
+      "invoiceNumber": "INS-2024-002",
+      "department": "Operations"
+    },
+    {
+      "id": "fin-31",
+      "type": "expense",
+      "category": "Insurance",
+      "subcategory": "Professional Liability",
+      "amount": 1500.00,
+      "description": "Professional liability insurance",
+      "date": "2024-01-01",
+      "companyId": "demo-company-1",
+      "paymentMethod": "Auto-debit",
+      "invoiceNumber": "INS-2024-003",
+      "department": "Operations"
+    },
+    {
+      "id": "fin-32",
+      "type": "expense",
+      "category": "Research & Development",
+      "subcategory": "R&D Projects",
+      "amount": 8000.00,
+      "description": "Research and development initiatives",
+      "date": "2024-01-13",
+      "companyId": "demo-company-1",
+      "paymentMethod": "Bank Transfer",
+      "invoiceNumber": "RD-2024-001",
+      "department": "Engineering"
+    },
+    {
+      "id": "fin-33",
+      "type": "expense",
+      "category": "Training & Development",
+      "subcategory": "Employee Training",
+      "amount": 4200.00,
+      "description": "Employee training and certification programs",
+      "date": "2024-01-04",
+      "companyId": "demo-company-1",
+      "paymentMethod": "Credit Card",
+      "invoiceNumber": "TRN-2024-001",
+      "department": "HR"
+    },
+    {
+      "id": "fin-34",
+      "type": "expense",
+      "category": "Taxes",
+      "subcategory": "Payroll Taxes",
+      "amount": 6300.00,
+      "description": "Monthly payroll taxes and contributions",
+      "date": "2024-01-15",
+      "companyId": "demo-company-1",
+      "paymentMethod": "Bank Transfer",
+      "invoiceNumber": "TAX-2024-001",
+      "department": "Finance"
+    },
+    {
+      "id": "fin-35",
+      "type": "expense",
+      "category": "Depreciation",
+      "subcategory": "Equipment Depreciation",
+      "amount": 2800.00,
+      "description": "Monthly depreciation on equipment and assets",
+      "date": "2024-01-31",
+      "companyId": "demo-company-1",
+      "paymentMethod": "Journal Entry",
+      "invoiceNumber": "DEP-2024-001",
+      "department": "Finance"
     }
   ],
   "dashboardStats": {
-    "totalRevenue": 37808.25,
-    "totalExpenses": 46500.00,
-    "netProfit": -8691.75,
-    "totalEmployees": 5,
-    "totalCustomers": 5,
-    "totalProjects": 4,
-    "activeProjects": 2,
-    "completedProjects": 1,
+    "totalRevenue": 165703.95,
+    "totalExpenses": 168200.00,
+    "netProfit": -2496.05,
+    "totalEmployees": 3,
+    "totalCustomers": 10,
+    "totalProjects": 6,
+    "activeProjects": 3,
+    "completedProjects": 2,
+    "planningProjects": 1,
     "totalInventoryValue": 89234.50,
     "lowStockItems": 2,
+    "outOfStockItems": 1,
+    "totalSales": 95703.95,
+    "totalConsulting": 43000.00,
+    "totalLicensing": 15000.00,
+    "totalSubscriptions": 12500.00,
+    "averageOrderValue": 9570.40,
+    "topCustomer": "MegaCorp Industries",
+    "topCustomerRevenue": 33598.55,
     "monthlySales": [
-      { "name": "Jan", "total": 22808 },
-      { "name": "Dec", "total": 18500 },
-      { "name": "Nov", "total": 21200 },
-      { "name": "Oct", "total": 19800 },
-      { "name": "Sep", "total": 23100 },
-      { "name": "Aug", "total": 20500 }
-    ]
+      { "name": "Jan", "total": 95704, "orders": 10, "customers": 10 },
+      { "name": "Dec", "total": 78500, "orders": 8, "customers": 7 },
+      { "name": "Nov", "total": 82200, "orders": 9, "customers": 8 },
+      { "name": "Oct", "total": 69800, "orders": 7, "customers": 6 },
+      { "name": "Sep", "total": 73100, "orders": 8, "customers": 7 },
+      { "name": "Aug", "total": 65500, "orders": 6, "customers": 5 }
+    ],
+    "monthlyExpenses": [
+      { "name": "Jan", "total": 168200, "categories": 12 },
+      { "name": "Dec", "total": 145000, "categories": 10 },
+      { "name": "Nov", "total": 152000, "categories": 11 },
+      { "name": "Oct", "total": 138000, "categories": 9 },
+      { "name": "Sep", "total": 142000, "categories": 10 },
+      { "name": "Aug", "total": 135000, "categories": 9 }
+    ],
+    "revenueByCategory": [
+      { "category": "Product Sales", "amount": 95703.95, "percentage": 57.8 },
+      { "category": "Consulting Services", "amount": 43000.00, "percentage": 26.0 },
+      { "category": "Licensing Revenue", "amount": 15000.00, "percentage": 9.1 },
+      { "category": "Subscription Revenue", "amount": 12500.00, "percentage": 7.5 }
+    ],
+    "expensesByCategory": [
+      { "category": "Salaries & Benefits", "amount": 54700.00, "percentage": 32.5 },
+      { "category": "Technology", "amount": 25700.00, "percentage": 15.3 },
+      { "category": "Marketing & Sales", "amount": 22500.00, "percentage": 13.4 },
+      { "category": "Operations", "amount": 24000.00, "percentage": 14.3 },
+      { "category": "Professional Services", "amount": 9500.00, "percentage": 5.6 },
+      { "category": "Travel & Entertainment", "amount": 6300.00, "percentage": 3.7 },
+      { "category": "Insurance", "amount": 3700.00, "percentage": 2.2 },
+      { "category": "Research & Development", "amount": 8000.00, "percentage": 4.8 },
+      { "category": "Training & Development", "amount": 4200.00, "percentage": 2.5 },
+      { "category": "Taxes", "amount": 6300.00, "percentage": 3.7 },
+      { "category": "Depreciation", "amount": 2800.00, "percentage": 1.7 }
+    ],
+    "projectStats": {
+      "totalBudget": 1270000.00,
+      "totalSpent": 745400.00,
+      "budgetUtilization": 58.7,
+      "averageCompletion": 62.2,
+      "onTimeProjects": 4,
+      "delayedProjects": 1,
+      "overBudgetProjects": 1
+    },
+    "customerStats": {
+      "newCustomersThisMonth": 2,
+      "repeatCustomers": 8,
+      "averageCustomerValue": 16570.40,
+      "topIndustry": "Technology",
+      "customerRetentionRate": 95.0
+    }
   },
   "notifications": [
     {
